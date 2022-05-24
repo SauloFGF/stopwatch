@@ -1,0 +1,64 @@
+*{
+    border: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: #E5E5E5;
+}
+.Relogio-input{
+    display: flex;
+    justify-content: center;
+    clear: both;
+    margin-top: 201px;
+    width: 309px;
+    height: 76px;
+    left: 480px;
+    top: 201px;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    box-shadow: 3px 4px 11px -4px rgba(0, 0, 0, 0.29);
+    border-radius: 16px;
+}
+.Cronometro{
+    display: flex;
+}
+.columns{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 98px ;
+    margin-right: 38px;
+    width: 129px;
+    height: 143px;
+    left: 659px;
+    top: 375px;
+    background: #FFFFFF;
+    border: 0.5px solid #DADADA;
+    box-shadow: 3px 4px 11px -4px rgba(0, 0, 0, 0.29);
+    border-radius: 16px;
+}
+#clock-timer{
+    display: flex;
+    align-items:flex-start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56.8px;
+    line-height: 69px;
+}
+.clock-label{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.0493px;
+    line-height: 28px;
+    border-top: 1px solid #DADADA;
+    padding: 6px;
+    font-size: 23.0493px;
+    text-align: center;
+}

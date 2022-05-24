@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Cronometro</title>
+</head>
+<body>
+    <div class="Relogio-input">
+        <input type="date" name="time-to" class="time-to" id="time-to" value="" onchange="calcTime(this.value)">
+    </div>
+    <div class="Cronometro">
+        <div class="columns">
+            <p  class="clock-days" id="clock-timer"></p>
+            <p class="clock-label">Days</p>
+        </div>
+        <div class="columns">
+            <p class="clock-hours" id="clock-timer"></p>
+            <p class="clock-label">Hours</p>
+        </div>
+        <div class="columns">
+            <p  class="clock-minutes" id="clock-timer"></p>
+            <p class="clock-label">Minutes</p>
+        </div>
+        <div class="columns">
+            <p  class="clock-seconds" id="clock-timer"></p>
+            <p class="clock-label">Seconds</p>
+        </div>
+
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
